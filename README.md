@@ -1,52 +1,14 @@
-The website is in /main-application
+# NETCAT
 
-/client /src --> front end content of the website (react, redux)
-/actions
-    alert.js --> redux alerts
-    auth.js --> loading user, registration, login/logout
-    catalogue.js --> get All Events Liked (paginated)
-    event.js --> get events from db
-    loading.js --> setting the loading state in redux
-    modal.js --> share button makes modal pop up
-    profile.js --> creating/deleting/updating a profile
-    types.js --> all action types
-/components
-    /alert
-        Alerts.js --> creates alert component
-        AlertComponent.js --> the html of the component and also can handle remove alert action
-    /auth 
-        login and register components 
-    /content 
-        featured page component by school 
-    /dashboard
-        Dashboard.js --> parent component 
-        Catalogue.js --> card display of events 
-        ProfileDisplay.js --> user's profile
-    /details 
-        component for the detailed version of a single event
-    /explorMore 
-        explore page component
-    /layout 
-        footer, header, spinner componenents
-    /map 
-        google map components
-    /navbar 
-        side nav and top nav bar 
-    /profile forms 
-        registration form + create profile form 
-    /routing 
-        Private vs. regular routes. 
+This application is deployed [here](https://networkcatalogue.herokuapp.com/).
 
-/fonts --> font files
-/reducers -- takes care of redux states after action is dispatched
-    alert.js
-    auth.js
-    catalogue.js
-    event.js
-    loading.js
-    modal.js
-    profile.js
-/utils
-    checkIfCatalogued.js --> checks if event is catalogued or not
-    setAuthToken.js --> authenticate user
-    config.js --> create one of these and put in your api key
+## Inspiration
+As current college students, we felt overwhelmed by the sheer number of event emails and postings we receive on a daily basis. Whether they were invitations to club information sessions to large-scale networking events, we felt pressured to take advantage of all the opportunities we possibly can.
+
+## Our Proposal
+For this reason, we created NETCAT, a web-based application that will automatically parse through many USC websites to generate events on our centralized event platform. Through NETCAT, users will be able to
+- View all their upcoming events on our live map and filter for specific events
+- Create account and add events to their favorite list
+- Share events across different social media platforms
+- Add events directly to their Google Calendar
+This eliminates the need to constantly perform a brute-force search through all their emails and go back-and-forth between several event sites.
