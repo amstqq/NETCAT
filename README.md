@@ -11,4 +11,5 @@ For this reason, we created NETCAT, a web-based application that will automatica
 - Create account and add events to their favorite list
 - Share events across different social media platforms
 - Add events directly to their Google Calendar
+
 This eliminates the need to constantly perform a brute-force search through all their emails and go back-and-forth between several event sites.
